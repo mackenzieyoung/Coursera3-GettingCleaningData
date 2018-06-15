@@ -1,29 +1,31 @@
-##Data Dictionary -- Human Activity Recognition Using Smartphones Dataset
+Data Dictionary -- Human Activity Recognition Using Smartphones Dataset
+=========================================
 
 subject: subject ID
+=================
 
 activity: activity subject was performing while wearing the smartphone
-Note: in original dataset, activities corresponded to numbers (found in activity_labels.txt) -- original number labels are in parentheses after activity name
-	- laying (6)
-		- subject was laying while measurements were taken
-	- sitting (4)
-		- subject was sitting while measurements were taken
-	- standing (5)
-		- subject was standing while measurements were taken
-	- walking (1)
-		- subject was walking while measurements were taken
-	- walkingup (2)
-		- subject was walking upstairs while measurements were taken
-	- walkingdown (3)
-		- subject was walking downstairs while measurements were taken
+=================
 
-Features:		
+- laying (6): subject was laying while measurements were taken
+- sitting (4): subject was sitting while measurements were taken
+- standing (5): subject was standing while measurements were taken
+- walking (1): subject was walking while measurements were taken
+- walkingup (2): subject was walking upstairs while measurements were taken
+- walkingdown (3): subject was walking downstairs while measurements were taken
+
+Note: in original dataset, activities corresponded to numbers (found in activity_labels.txt) -- original number labels are in parentheses after activity name
+
+
+Features:	
+==================
+	
 time: time domain signals (captured at a constant rate of 50 Hz)
 freq: frequency domain signals
 Body: body signal
 Gravity: gravitational signal
 Acc: signal from accelerometer
-Gyro: signal from gyroscope
+Gyro: signal from gyroscope (radians/second)
 Jerk: body linear acceleration and angular velocity derived in time
 Mag: magnitude of the three-dimensional signals (calculated using the Euclidean norm)
 mean: mean value
@@ -40,7 +42,8 @@ e.g.:
 "freqBodyGyroMag.std" represents the mean of the standard deviation of magnitude of the frequency domain body signals from the gyroscope
 
 List of all features:
-Note: feature names were changed from original dataset by removing parentheses, substituting dashes (-) with periods (.), and expanding "t" and "f" to "time" and "frequency"
+==================
+
 timeBodyAcc.mean.X
 timeBodyAcc.mean.Y
 timeBodyAcc.mean.Z
@@ -107,3 +110,5 @@ freqBodyBodyGyroMag.mean
 freqBodyGyroMag.std
 freqBodyGyroJerkMag.mean
 freqBodyGyroJerkMag.std
+
+Note: feature names were changed from original dataset by removing parentheses, substituting dashes (-) with periods (.), and expanding "t" and "f" to "time" and "frequency"
