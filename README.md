@@ -1,4 +1,5 @@
-##This README was adapted from the original README for the Human Activity Recognition Using Smartphones Dataset
+This README was adapted from the original README for the Human Activity Recognition Using Smartphones Dataset
+======
 
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0

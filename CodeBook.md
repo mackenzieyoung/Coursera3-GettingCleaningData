@@ -2,10 +2,10 @@ Data Dictionary -- Human Activity Recognition Using Smartphones Dataset
 =========================================
 
 subject: subject ID
-=================
+======
 
 activity: activity subject was performing while wearing the smartphone
-=================
+======
 
 - laying (6): subject was laying while measurements were taken
 - sitting (4): subject was sitting while measurements were taken
@@ -18,7 +18,7 @@ Note: in original dataset, activities corresponded to numbers (found in activity
 
 
 Features:	
-==================
+======
 	
 time: time domain signals (captured at a constant rate of 50 Hz)
 freq: frequency domain signals
@@ -42,7 +42,7 @@ e.g.:
 "freqBodyGyroMag.std" represents the mean of the standard deviation of magnitude of the frequency domain body signals from the gyroscope
 
 List of all features:
-==================
+======
 
 timeBodyAcc.mean.X
 timeBodyAcc.mean.Y
